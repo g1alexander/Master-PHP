@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="GET" action="ejercicio5.php">
+    <form method="GET" action="ejercicio7.php">
         <p>
             <label for="n1">Numero 1</label>
             <input type="number" name="n1">
