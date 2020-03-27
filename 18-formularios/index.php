@@ -29,6 +29,72 @@ value="" -> rellenan campos automaticamente
 <label for="apellido">apellido</label>
 <input type="text" name="apellido" placeholder="hola"><br>
 </p>
+<input type="button" name="boton" value="boton"> <r>
+</p>
+
+<p>
+<label for="sexo">Sexo:</label><br>
+ hombre: <input type="checkbox" name="sexo" value="M"><br>
+ mujer: <input type="checkbox" name="sexo" value="F"><br>
+</p>
+
+
+<label for="color">Color</label>
+<input type="color" name="color"> <br>
+</p>
+<p>
+<label for="fecha">Facha</label>
+<input type="date" name="fecha"><br>
+</p>
+
+<p>
+<label for="correo">Correo</label>
+<input type="email" name="correo"><br>
+</p>
+
+<p>
+<label for="archivo">archivo</label>
+<input type="file" name="archivo" multiple="multiple"><br>
+</p>
+
+<p>
+<label for="numero">numero</label>
+<input type="number" name="numero"><br>
+</p>
+
+<p>
+<label for="contra">contraseña</label>
+<input type="password" name="contra"><br>
+</p>
+
+<label for="continente">continente</label>
+<p>
+America: <input type="radio" name="continente" value="america"><br>
+Europa <input type="radio" name="continente"value="europa"><br>
+Asia <input type="radio" name="continente"value="asia"><br>
+</p>
+
+<p>
+<label for="web">web</label>
+<input type="url" name="web"><br>
+</p>
+
+<p>
+<textarea></textarea><br>
+</p>
+
+<p>
+Peliculas
+
+<select>
+<option value="1"> Harry</option>
+<option value="1">Mcfly</option>
+<option value="1">Hola Mundo</option>
+
+</select>
+
+</p>
+
 <input type="submit" value="Enviar">
 </form>
 </body>
